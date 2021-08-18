@@ -1,0 +1,53 @@
+.intro{
+	color: white;
+	text-align: center;
+}
+ 
+h1 {
+    color:			gold;
+    font-family:	verdana;
+    font-size:		300%;
+	text-decoration: underline;
+}
+
+
+p {
+    color:			gold;
+	font-family:	Courier New;
+	font-size:		120%;
+}
+
+
+body {
+    background-image: url('http://eskipaper.com/images/animated-gifs-1.jpg');
+	background-size: cover;
+}
+
+p {
+    color: white;
+}
+
+button{
+font-family: verdana;	
+background-color: lightblue;
+height: 30px;
+width: 200px;
+font-size: 40;
+}
+button:hover{
+	height: 30px;
+	width: 220px;
+	background-color: white;
+	color: gold;
+}
+.center{
+	text-align: center;
+}
+#guess{
+	height: 40px;
+	width: 300px;
+	font-size: 40;
+	font-family: courier new;
+	text-align: center;
+	padding: 0;
+}
