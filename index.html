@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+	<head>
+		<title>Guessing Game</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<h2 class=intro style="text-decoration: underline;">Do you have what it takes to play the <b>Guessing Game<b>?</h2>
+        <br><h3 class=intro style="font-family: lucida console;">In this game, you have to guess a randomly-generated, 4-letter password. You have five attempts. 
+        <br> </br>
+        Good luck! </h3>
+        <link rel = "stylesheet" href = "style.css">
+        <script src= "sketch.js" defer ></script>
+	</head>
+    <body>
+		<h1 style= "text-align: center;"> <i> Password Guessing Game</h1> </i>
+		<p style="text-align: center;">Please enter your 4-digit passcode.</p>
+		<p id='temp'> </p>
+		<div class= 'center'>
+			<input type='text' id='guess' >
+		</div>
+		<br>
+		<div class= 'center'>
+			<button type='button' onclick='valid_input()'><b>Press to Enter Code<b></button>
+		</div>
+		<br>
+		<p>Attempts: <span id='triesLeft'>5</span></p>
+		<p id='hint1'></p>
+        <p id='hint2'></p>
+		<p id='hint3'></p>
+		<p id='hint4'></p>
+	</body>
+</html>
